@@ -30,7 +30,7 @@ data:
       - name: root
         sudo: ALL=(ALL) NOPASSWD:ALL
         lock_passwd: false
-        passwd: 'VMware1!'
+        passwd: '$6$rounds=VMware1!'
         shell: /bin/bash
     write_files:
       - content: |
